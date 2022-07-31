@@ -21,6 +21,52 @@ img {
 .items:hover {
     color: red;
     cursor:pointer;
+    text-decoration: underline;
 }
 
- 
+h1 {
+    color: red;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    text-align: center;
+}
+
+#pictures_of_myself {
+    display: flex;
+    background-color: white;
+}
+
+.pics_of_myself {
+    justify-content: center;
+}
+
+#pic_of_myself1 {
+    width:500px;
+    padding-left: 190px;
+}
+
+#pic_of_myself2 {
+    width: 900px;
+    padding-left: 30px;
+}
+
+#description_paragraph {
+    font-size:30px;
+}
+
+h2 {
+    font-size:50px;
+    color:mediumvioletred;
+    padding-left:700px;
+}
+
+#filler_paragraph {
+    font-size:30px;
+}
+
+#i_love_sugary_sweet_stuff {
+    padding-left:500px;
+}
